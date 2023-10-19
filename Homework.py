@@ -16,7 +16,7 @@ def Foydalanuvchi1():
     if (number % 2) == 0:
         print(f"{number} Juft son")
     else:
-        print(f"{number} Toq")
+        print(f"{number} Toq son")
 
 
 Foydalanuvchi1()

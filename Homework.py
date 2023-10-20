@@ -1,22 +1,20 @@
-def Foydalanuvchi():
+def Foydalanuvchi(x):
     """Kvadrat va kubni konsolga chiqaruvchi funksiya"""
     print(Foydalanuvchi.__doc__)
-    square = int(input("Hohlagan natural son yozing>>"))
-    print(f"{square} ning kavadrati, = {square ** 2} ga teng")
-    print(f"{square} ning kubi, = {square ** 3} ga teng")
+    print(f"{x} ning kvadrati = {x ** 2} ga tneg")
+    print(f"{x} ning kubi = {x ** 3} ga teng ")
 
 
-Foydalanuvchi()
+Foydalanuvchi(5)
 
 
-def Foydalanuvchi1():
+def Foydalanuvchi1(y):
     """Juft yoki Toqligini tekshiruvchi funksiya"""
     print(Foydalanuvchi1.__doc__)
-    number = int(input("Hohlagan natural son yozing>>"))
-    if (number % 2) == 0:
-        print(f"{number} Juft son")
+    if (y % 2) == 0:
+        print(f"{y} Juft son")
     else:
-        print(f"{number} Toq son")
+        print(f"{y} Toq son")
 
 
-Foydalanuvchi1()
+Foydalanuvchi1(3)
